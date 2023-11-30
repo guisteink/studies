@@ -5,7 +5,7 @@ Aqui estão alguns comandos Stern para monitorar logs em diferentes contextos do
 ## Monitorar Logs por Número de Telefone no Contexto 'wa'
 
 ```
-stern -l phone=XXXXXXXXXXXX --context {{}} --color never -s 1s > XXXXXXXXXXXX.log
+stern -l phone=XXXXXXXXXXXX --context {{context}} --color never -s 1s > XXXXXXXXXXXX.log
 stern -l phone=551140029000 --context wa --color never -s 1s > 551140029000.log
 ```
 
