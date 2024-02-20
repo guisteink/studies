@@ -1,0 +1,11 @@
+sum=0
+count=0
+
+while read -r input; do
+    sum=$((sum + input))
+    ((count++))
+done
+
+# average=$(echo "scale=2; $sum / $count" | bc)
+average=$(awk "BEGIN {printf \"%.2f\", $sum / $count}")
+echo "$average"

@@ -1,0 +1,8 @@
+read -p "enter first number: " num_01
+read -p "enter second number: " num_02
+
+echo $(($num_01+$num_02))
+echo $(($num_01-$num_02))
+echo $(($num_01*$num_02))
+echo $(($num_01/$num_02))
+

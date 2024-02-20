@@ -1,0 +1,9 @@
+while read -r input; do
+    for (( i=0; i<${#input}; i++ )); do
+        char="${input:$i:1}"
+
+        if [ "$i" -eq 2 ]; then
+            echo "$char"
+        fi
+    done
+done

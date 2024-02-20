@@ -1,0 +1,6 @@
+read -p "expression: " expression
+
+# result=$(echo "scale=3; $expression" | bc) # bc -> basic calculator
+result=$(awk "BEGIN {printf \"%.3f\", $expression}")
+
+echo $result

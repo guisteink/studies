@@ -1,0 +1,9 @@
+Write a Bash script which accepts  as input and displays the greeting "Welcome (name)"
+
+greet() {
+    echo "Welcome $1"
+}
+
+read -p "Enter your name: " input_name
+
+greet "$input_name"

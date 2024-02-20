@@ -1,0 +1,7 @@
+arr=()
+
+while read -r input; do
+    arr+=($input)
+done
+
+echo -n "${arr[@]}"
