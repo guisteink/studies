@@ -12,11 +12,13 @@
 #### Tuning para Melhorar a Performance
 - Ajuste de Parâmetros: Modifique configurações como tamanho de cache e buffers para melhorar a performance.
 - Otimização de Consultas Lentas: Identifique e melhore consultas lentas com ferramentas de profiling.
-- Otimização do Uso em Alto Volume de E/S:
+
+#### Otimização do Uso em Alto Volume de E/S:
 - Cache de Segundo Nível: Reduza os acessos ao banco de dados implementando um cache de segundo nível.
 - Pré-processamento de Dados: Utilize técnicas de pré-processamento para diminuir a frequência de consultas.
 - Distribuição de Carga: Implemente sharding ou replicação horizontal para distribuir a carga de trabalho de maneira eficaz.
-- Identificação da Causa Raiz de Lentidão:
+
+#### Identificação da Causa Raiz de Lentidão:
 - Verificação de Índices: Cheque índices ausentes ou subutilizados que podem estar afetando a performance.
 - Monitoramento de Bloqueios e Deadlocks: Acompanhe e resolva bloqueios e deadlocks que podem causar lentidão.
 - Análise de Estatísticas de Desempenho: Utilize estatísticas do banco de dados para identificar gargalos de desempenho.
