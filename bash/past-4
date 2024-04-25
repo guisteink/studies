@@ -1,0 +1,12 @@
+arr=()
+
+while read -r input; do
+    arr+=("$input")
+done
+
+length=${#arr[@]}
+
+for ((i = 0; i < length; i += 3)); do
+    echo -e "${arr[i]}\t${arr[i+1]}\t${arr[i+2]}"
+done
+
